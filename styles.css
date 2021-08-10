@@ -41,6 +41,11 @@ table tr td {
     cursor:pointer;
 
 }
+table tr td a{
+    color:black;
+    text-decoration: none;
+
+}
 .display{
     text-align: center;
     padding:1rem;
