@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle App</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    
+    <div class="header">Triangle Fun App</div>
+    
+    <div class="container">
+        <div class="heading">
+        <button class="btngoback" onclick="location.href='index.html';">Go Back</button>
+        <h3>Guess the type of triangle</h3>
+        </div>
+   <div class="checktriangle">
+   <input id="angle1" disabled value=100> </input>
+   <input id="angle2" disabled value=30> </input>
+   <input id="angle3" disabled value=30> </input>
+   <br>
+   <input type="radio" id="answer" name="answer" value="obtuse">Obtuse</input> <br>
+   <input type="radio" id="answer" name="answer" value="acute">Acute</input> <br>
+   <input type="radio" id="answer" name="answer" value="right">Right</input> <br>
+   <button id="buttonguesstriangle" class="btnCheck" >Check</button>
+   <button id="buttonplayagain" class="playAgain" onclick="location.href='./guesstriangle.html'">Play Again</button>
+</div>
+    <div class="display">Output will come here...</div>
+</div>
+<footer>
+    <a href="https://github.com/jyothishp994"><img src="./images/github.png" /></a>
+    <a href="https://www.linkedin.com/in/jyothish-pavithran-490b4a107"><img src="./images/linkedin.png" /></a>
+    <a href="https://twitter.com/jyothish94"><img src="./images/twitter.png" /></a>
+</footer>
+<script type="text/javascript" src="app.js"></script>
+<script>
+    function randomInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  angle1Var.value= randomInteger(30,60);
+    angle2Var.value=randomInteger(30,60);
+    angle3Var.value=180-(eval(angle1Var.value) + eval(angle2Var.value));
+ 
+</script>
+</body>
+</html>

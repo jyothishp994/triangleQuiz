@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle App</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    
+    
+    <div class="container">
+        <div class="heading">
+        <button class="btngoback" onclick="location.href='index.html';">Go Back</button>
+        <h3>Let's play the triangle quiz</h3>
+        <table>
+            <tr id="ans1">
+                <td>
+                    A triangle with one angle greater than 90 degrees.
+                </td>
+               
+                    <td>
+                        <input type="radio" class="radiobtn" id="answer1" name="answer1" value="a">Equilateral triangle</input>
+                        <input type="radio" class="radiobtn" id="answer1" name="answer1" value="b">Obtuse triangle</input>
+                        <input type="radio" class="radiobtn" id="answer1" name="answer1" value="c">Acute triangle</input>
+                    </td>
+               
+            </tr>
+            <tr id="ans2">
+                <td>
+                    A triangle with all three angles less than 90 degrees.
+                </td>
+               
+                    <td>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer2" value="a">Isosceles triangle</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer2" value="b">Equilateral triangle</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer2" value="c">Acute triangle</input>
+                    </td>
+               
+            </tr>
+            <tr id="ans3">
+                <td>
+                   
+                A triangle having at least two equal sides.
+                </td>
+               
+                    <td>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer3" value="a">Isosceles triangle</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer3" value="b">Equilateral triangle</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer3" value="c">Acute triangle</input>
+                    </td>
+               
+            </tr>
+            <tr id="ans4">
+                <td>
+                   
+                    A triangle with one angle equal to 90 degrees.
+                </td>
+               
+                    <td>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer4" value="a">Isosceles triangle</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer4" value="b">Right triangle</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer4" value="c">Acute triangle</input>
+                    </td>
+               
+            </tr>
+            <tr id="ans5">
+                <td>
+                   
+                    
+A triangle having three equal sides.
+                </td>
+               
+                    <td>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer5" value="a">Isosceles triangle</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer5" value="b">Right triangle</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer5" value="c">Equilateral triangle</input>
+                    </td>
+               
+            </tr>
+            <tr id="ans6">
+                <td>
+                   
+                    The sum of the measures of all three sides of a triangle.
+                </td>
+               
+                    <td>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer6" value="a">Area</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer6" value="b">Perimeter</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer6" value="c"> Diameter</input>
+                    </td>
+               
+            </tr>
+            <tr id="ans7">
+                <td>
+                   
+                    In right triangle, the side opposite to right angle is called.
+                </td>
+               
+                    <td>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer7" value="a">Altitude</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer7" value="b">Hypotenuse</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer7" value="c"> Angle bisector</input>
+                    </td>
+               
+            </tr>
+            <tr id="ans8">
+                <td>
+                   
+                    What is the third angle of the triangle which has 1st angle 60 and 2nd angle 40.
+                </td>
+               
+                    <td>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer8" value="a">80</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer8" value="b">50</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer8" value="c">20</input>
+                    </td>
+               
+            </tr>
+            <tr id="ans9">
+                <td>
+                   
+                    
+The sum of all the angles of a triangle.
+                </td>
+               
+                    <td>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer9" value="a">360</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer9" value="b">150</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer9" value="c"> 180</input>
+                    </td>
+               
+            </tr>
+            <tr id="ans10">
+                <td>
+                   
+                    A triangle in which all three sides have different lengths
+                </td>
+               
+                    <td>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer10" value="a">Equilateral triangle</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer10" value="b">Scalene triangle</input>
+                        <input type="radio" class="radiobtn" id="answer2" name="answer10" value="c"> Acute triangle</input>
+                    </td>
+               
+            </tr>
+        </table>
+        </div>
+   <div class="checktriangle">
+
+   <button id="btntrianglequiz" class="btnCheck">Submit</button>
+</div>
+    <div class="display">Your result will come here...</div>
+</div>
+<footer>
+    <a href="https://github.com/jyothishp994"><img src="./images/github.png" /></a>
+    <a href="https://www.linkedin.com/in/jyothish-pavithran-490b4a107"><img src="./images/linkedin.png" /></a>
+    <a href="https://twitter.com/jyothish94"><img src="./images/twitter.png" /></a>
+</footer>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
