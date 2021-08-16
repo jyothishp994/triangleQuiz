@@ -10,7 +10,7 @@ Problem Statement<br>
 -Guess third angle of the triangle.
 -Guess triangle type.
 
-<br>
+<br><br>
 
 Tech Stack Used <br>
 -Html <br>
