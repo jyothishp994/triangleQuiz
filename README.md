@@ -7,6 +7,9 @@ Problem Statement<br>
 -Prepare a Quiz and enable the user to play the quiz and calculate scores based on the answers chosen by the user.<br>
 -Calculate hypotenuse of a triangle given the other two sides<br>
 -Calculate area of a triangle given the base and height of a triangle<br>
+-Guess third angle of the triangle.
+-Guess triangle type.
+
 <br>
 
 Tech Stack Used <br>
